@@ -29,3 +29,55 @@ class  Datatypes{
             
     }
 }
+
+
+
+// all blocks --------------------------------
+
+// class Main {
+//  public static class car{
+//      int num =4321;
+//        static int a =34;   // static block
+//      float fd =400.2f;   // non static
+//     }
+    
+//     public static void main(String[] args) {
+              
+//                 car cerry =new car();
+//                  System.out.println(cerry.num);
+//                 System.out.println(" statc block "+cerry.a+"non static  "+cerry.fd);
+            
+            
+//     }
+// }
+
+
+// declare all primitive datatypes inside a method and try to print them without initialisation---
+
+// class Main {
+//  public static class car{
+//      int num =4321;
+//        static int a =34;   // static block
+//      float fd =400.2f;   // non static
+     
+//      void features(){
+//          int va;
+//          int arr[]={};
+         
+//          System.out.println("these are the features  of this car");
+//                 //  System.out.println(va);  // it means give a compile time error 
+
+//      }
+//     }
+    
+//     public static void main(String[] args) {
+              
+//                 car cerry =new car();
+//                  System.out.println(cerry.num);
+//                 System.out.println(" statc block : "+cerry.a+" non static : "+cerry.fd);
+//                 cerry.features();
+            
+            
+//     }
+// }
+
