@@ -6,7 +6,7 @@ public class staticvariable {
 
     public static void main(String[] args) {
     //  Car cc =new Car();
-     System.out.println(Car.value);   
+     System.out.println(Car.value);    // accessible without creating object 
     }
 
 }
