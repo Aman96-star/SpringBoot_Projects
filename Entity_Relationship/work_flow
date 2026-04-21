@@ -1,1 +1,20 @@
+@Entity   -to marks a class as a jpa Entity mapped to a DB table
+@Table    -specify the table name in the DB
+@Id/@GeneratedValue  -mark the PK / genearate the Strategy
+@OneToOne   -one entity mapped exactly one entity
+@OneToMany/@ManyToOne  -one enetity maps to a list of child entity
+@JoinColumn  -define the FK cloumn owns the relationship
+mappedBy  - 
+CascadeType
+FetchType -
+JpaRepository -spring Data Interface for  crud operation 
 
+
+--------------------------------------------------------------------------------------
+Customer ↔ CustomerProfile
+Each Customer has exactly one CustomerProfile (address, phone, etc.)
+
+Relationship                Customer (1) → (1) CustomerProfile
+FK location                 customer_profile table holds customer_id
+Owning side                 CustomerProfile (@JoinColumn)
+Cascade                     ALL — save customer saves profile
