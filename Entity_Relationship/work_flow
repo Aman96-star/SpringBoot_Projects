@@ -66,3 +66,18 @@ Used to access profile from customer
 ----------------------------------------------------------------------------------------------------
 
 
+App Starts
+   ↓
+Spring Boot Initializes
+   ↓
+CommandLineRunner runs
+   ↓
+Objects created (Customer + Profile)
+   ↓
+Objects linked (VERY IMPORTANT)
+   ↓
+Save customer
+   ↓
+Cascade saves profile
+   ↓
+Data stored in DB
